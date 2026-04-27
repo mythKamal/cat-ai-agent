@@ -8,7 +8,7 @@ load_dotenv()
 
 # ═══════════════════════════════════════
 # PUT YOUR GROQ KEY HERE
-GROQ_KEY= os.getenv("GROQ_API_KEY")
+GROQ_KEY= st.secrets["GROQ_API_KEY"]
 
 # ═══════════════════════════════════════
 
